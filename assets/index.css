@@ -48,13 +48,19 @@ width: 120px;
     border-radius: 50px;
 }
 
-.Veículos{
-    padding: 10px;
-    text-align: flex;
+.container {
+    background-color: #919191;
+    color: white;
+    display: flex;
     position: fixed;
     width: 100%;
+    align-items: first baseline;
+    padding: 15px 0;
     bottom: 0;
+    gap: 20px; 
 }
+
+
 
 footer {
     color: white;
