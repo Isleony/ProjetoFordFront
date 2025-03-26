@@ -59,7 +59,7 @@ header {
 .container {
     display: flex;
     background-color: #004000;
-    position: relative; /* Ou relative, dependendo do layout esperado */
+    position: relative;
     bottom: 0;
 }
 
