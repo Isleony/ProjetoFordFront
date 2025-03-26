@@ -21,7 +21,16 @@ header {
     height: 40px;
     width: auto;
 }
+.carousel {
+    position: relative;
+    width: 60%;
+    height: fit-content;
+    align-items: flex-end;
+    display: flex;
+    margin-top: 80px;
 
+
+}
 .nav {
     display: flex;
     align-items: center;
