@@ -48,6 +48,13 @@ width: 120px;
     border-radius: 50px;
 }
 
+.Veículos{
+    padding: 10px;
+    text-align: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
 footer {
     color: white;
