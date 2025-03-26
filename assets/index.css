@@ -11,9 +11,11 @@ body {
 
 header {
     background-color: #001f3f;
-    content: inherit;
     padding: 15px 0;
+    position: fixed; /* Corrigido para tornar o header fixo */
+    width: 100%;
     top: 0;
+    z-index: 1000; /* Certifica-se de que o header fica acima de outros elementos */
 }
 
 .logo img {
@@ -24,48 +26,49 @@ header {
 .demo {
     position: relative;
     width: 60%;
-    align-items: flex-end;
     display: flex;
-    margin-top: 80px;
-
-
+    align-items: flex-end;
+    margin: 80px auto; /* Centraliza horizontalmente */
 }
 
 .nav {
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    justify-content: center;
     padding: 0 20px;
+    margin: 0 auto;
+    gap: 15px; /* Adicionado espaçamento entre itens de navegação */
 }
 
 .nav-links {
-    text-decoration: none;
     list-style: none;
     display: flex;
     color: white;
-    display: ;
+    gap: 10px; /* Espaçamento entre os links */
+}
 
+.nav-links li {
+    display: inline-flex; /* Deixa os itens flexíveis horizontalmente */
 }
 
 .nav-links li a {
     text-decoration: none;
-    justify-content: space-between;
     color: white;
     font-size: 18px;
     padding: 8px 12px;
-    transition: 0.3s;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
 }
 
 .nav-links li a:hover {
     background-color: #004000;
-    border-radius: 50px;
 }
 
 .container {
     display: flex;
     background-color: #004000;
-    position: relative;
-    bottom: 0;
+    padding: 20px;
+    margin: 20px auto; 
 }
 
 footer {
