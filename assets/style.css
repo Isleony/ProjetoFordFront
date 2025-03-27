@@ -57,11 +57,11 @@ body {
     margin: auto;
 }
 .carousel-item img {
-    max-width: 800px; /* Define um tamanho máximo */
-    max-height: 400px; /* Define uma altura máxima */
+    max-width: 100%; /* Define um tamanho máximo */
+    max-height: 500px; /* Define uma altura máxima */
     object-fit: cover; /* Ajusta a imagem sem distorcer */
     margin: auto; /* Centraliza a imagem */
-    display: block; /* Garante que a imagem não quebre o layout */
+    display: flex; /* Garante que a imagem não quebre o layout */
 }
 
 
