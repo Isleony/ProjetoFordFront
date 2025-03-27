@@ -51,12 +51,12 @@ body {
     height: 40px;
     width: auto;
 }
-
 .carousel-slide {
     max-width: 1000px;
     position: relative;
-    margin: auto
+    margin: auto;
 }
+
 
 
 .container {
