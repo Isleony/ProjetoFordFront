@@ -27,28 +27,34 @@ body {
     gap: 15px;
 }
 
-.nav-links {
-    list-style: none;
-    display: inline;
-    margin-right: 16px;
+.links ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 16px; 
+}
+
+.links li {
+    margin: 0;
+}
+
+.links a {
+    text-decoration: none; 
+    color: #fff; 
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
+    padding: 8px 12px; 
+    border-radius: 4px; 
 }
 
-.nav-links li {
-    justify-content: space-between;
-    display: contents;
+.links a:hover {
+    background-color: #003300; 
 }
 
-.nav-links li a {
-    color: #fff;
-    text-decoration: none;
-}
 
-.nav-links li a:hover {
-    background-color: #004000;
-}
+
 
 .logo img {
     height: 40px;
@@ -60,7 +66,6 @@ body {
     position: relative;
     margin: auto
 }
-
 
 
 .container {
