@@ -44,6 +44,15 @@ body {
     background-color: #003300;
 }
 
+.video {
+    height: 315px;
+    width: auto;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;    /* Centraliza o conteúdo verticalmente */
+    margin: auto;           /* Alinha o vídeo no centro da página */
+}
+
 
 
 
@@ -57,13 +66,12 @@ body {
     margin: auto;
 }
 .carousel-item img {
-    max-width: 100%; /* Define um tamanho máximo */
-    max-height: 500px; /* Define uma altura máxima */
-    object-fit: cover; /* Ajusta a imagem sem distorcer */
-    margin: auto; /* Centraliza a imagem */
-    display: flex; /* Garante que a imagem não quebre o layout */
+    max-width: 100%; 
+    max-height: 500px; 
+    object-fit: cover; 
+    margin: auto; 
+    display: flex; 
 }
-
 
 
 .container {
