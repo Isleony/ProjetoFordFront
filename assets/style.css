@@ -46,16 +46,36 @@ body {
     background-color: #003300;
 }
 
-.video {
-    height: 315px;
-    width: auto;
-    display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center;    /* Centraliza o conteúdo verticalmente */
-    margin: auto;           /* Alinha o vídeo no centro da página */
+/* CSS */
+.card {
+    width: 320px; /* Largura do card */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 8px; /* Cantos arredondados */
+    overflow: hidden; /* Esconde partes que excedem o tamanho do card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: 16px auto; /* Centraliza o card */
 }
 
+.card video {
+    border-bottom: 1px solid #ddd; /* Linha separadora do vídeo */
+}
 
+.card-content {
+    padding: 16px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.card-content h3 {
+    margin: 0; /* Remove margem do título */
+    font-size: 1.2em; /* Ajusta o tamanho da fonte */
+    color: #333; /* Cor do título */
+}
+
+.card-content p {
+    margin-top: 8px; /* Espaço entre o título e o texto */
+    font-size: 0.9em; /* Ajusta tamanho do texto */
+    color: #555; /* Cor do texto */
+}
 
 
 .logo img {
@@ -63,7 +83,7 @@ body {
     width: auto;
 }
 .carousel-slide {
-    max-width: 1000px;
+    max-width: 20vh;
     position: relative;
     margin: auto;
 }
@@ -75,13 +95,12 @@ body {
     display: flex; 
 }
 
-
 .container {
     display: flex;
     background-color: #004000;
     padding: 20px;
-    margin: 20px auto;
-    
+    height: inherit;
+    width: 100%;
 }
 .container a{
     text-decoration: none;
