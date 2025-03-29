@@ -48,33 +48,48 @@ body {
 
 /* CSS */
 .card {
-    width: 320px; /* Largura do card */
-    border: 1px solid #ddd; /* Borda leve */
-    border-radius: 8px; /* Cantos arredondados */
-    overflow: hidden; /* Esconde partes que excedem o tamanho do card */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    margin: 16px auto; /* Centraliza o card */
+    width: 320px;
+    /* Largura do card */
+    border: 1px solid #ddd;
+    /* Borda leve */
+    border-radius: 8px;
+    /* Cantos arredondados */
+    overflow: hidden;
+    /* Esconde partes que excedem o tamanho do card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil */
+    margin: 16px auto;
+    /* Centraliza o card */
 }
 
 .card video {
-    border-bottom: 1px solid #ddd; /* Linha separadora do vídeo */
+    border-bottom: 1px solid #ddd;
+    /* Linha separadora do vídeo */
 }
 
 .card-content {
-    padding: 16px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
+    padding: 16px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Centraliza o texto */
 }
 
 .card-content h3 {
-    margin: 0; /* Remove margem do título */
-    font-size: 1.2em; /* Ajusta o tamanho da fonte */
-    color: #333; /* Cor do título */
+    margin: 0;
+    /* Remove margem do título */
+    font-size: 1.2em;
+    /* Ajusta o tamanho da fonte */
+    color: #333;
+    /* Cor do título */
 }
 
 .card-content p {
-    margin-top: 8px; /* Espaço entre o título e o texto */
-    font-size: 0.9em; /* Ajusta tamanho do texto */
-    color: #555; /* Cor do texto */
+    margin-top: 8px;
+    /* Espaço entre o título e o texto */
+    font-size: 0.9em;
+    /* Ajusta tamanho do texto */
+    color: #555;
+    /* Cor do texto */
 }
 
 
@@ -82,27 +97,30 @@ body {
     height: 40px;
     width: auto;
 }
+
 .carousel-slide {
     max-width: 20vh;
     position: relative;
     margin: auto;
 }
+
 .carousel-item img {
-    max-width: 100%; 
-    max-height: 500px; 
-    object-fit: cover; 
-    margin: auto; 
-    display: flex; 
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    margin: auto;
+    display: flex;
 }
 
 .container {
     display: flex;
-    background-color: #004000;
+    background-color: #023b75;
     padding: 20px;
     height: inherit;
     width: 100%;
 }
-.container a{
+
+.container a {
     text-decoration: none;
     color: #fff;
     font-size: 10px;
@@ -111,13 +129,13 @@ body {
     padding: 8px 12px;
     border-radius: 4px;
 }
-.Icones{
-    text-decoration: none;
-    background-color: #001f3f;
-    flex-flow: row;
+
+.Icones {
+    padding: 10px;
     border-radius: 50%;
     cursor: pointer;
 }
+
 footer {
     color: white;
     background-color: #001f3f;
@@ -127,4 +145,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
