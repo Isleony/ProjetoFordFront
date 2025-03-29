@@ -111,7 +111,13 @@ body {
     padding: 8px 12px;
     border-radius: 4px;
 }
-
+.Icones{
+    text-decoration: none;
+    background-color: #001f3f;
+    flex-flow: row;
+    border-radius: 50%;
+    cursor: pointer;
+}
 footer {
     color: white;
     background-color: #001f3f;
@@ -121,3 +127,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
