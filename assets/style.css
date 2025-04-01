@@ -134,11 +134,12 @@ body::before {
     
 }
 .container {
-  display: flex;
+    display: flex;
     background-color: #023b75;
     padding: 20px;
     height: inherit;
     width: 100%;
+    background: cover;
 }
 
 .container a {
