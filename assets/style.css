@@ -54,7 +54,7 @@ body::before {
     background-color: #003300;
 }
 
-/* CSS */
+
 .card {
     width: 320px;
     /* Largura do card */
@@ -68,28 +68,36 @@ body::before {
     /* Sombra sutil */
     margin: 16px auto;
     /* Centraliza o card */
+    display: inline;
 }
 
 .card video {
     border-bottom: 1px solid #ddd;
+    display: inline;
     /* Linha separadora do vídeo */
 }
 
-.card-content {
-    padding: 16px;
-    /* Espaçamento interno */
+.card-container {
+    display: flex;
+    gap: 20px; /* Espaço entre os cards */
+    justify-content: center; /* Centraliza os cards na tela */
+    flex-wrap: wrap; /* Permite que quebrem linha em telas menores */
+    }
+    
+    .card {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
     text-align: center;
-    /* Centraliza o texto */
-}
-
-.card-content h3 {
-    margin: 0;
-    /* Remove margem do título */
-    font-size: 1.2em;
-    /* Ajusta o tamanho da fonte */
-    color: #333;
-    /* Cor do título */
-}
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px; /* Largura fixa para os cards */
+    }
+    
+    video {
+    width: 100%;
+    border-radius: 5px;
+    }
+    
 
 .card-content p {
     margin-top: 8px;
