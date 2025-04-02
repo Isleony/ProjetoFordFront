@@ -115,18 +115,21 @@ video {
 
 .logo img {
     height: 40px;
+    /*logo da ford*/
     width: auto;
     border-radius: 20%;
-    transform: rotateX(-360deg);
+
 }
 
 .carousel-slide {
+    /*seu carousel ta péssimo, mudar as img*/
     max-width: 20vh;
     position: relative;
     margin: auto;
 }
 
 .carousel-item img {
+    /*pelo menos o display ta legal*/
     max-width: 100%;
     max-height: 500px;
     object-fit: cover;
@@ -134,7 +137,7 @@ video {
     display: flex;
 }
 
-.Icones {
+.Icones:hover {
 
 
     padding: 10px;
@@ -143,11 +146,13 @@ video {
     width: 50px;
     height: 50px;
     display: inline;
-
+    transform: rotateX(-360deg);
+    /*ta quebrando a pagina */
 
 }
 
 .container {
+    /*arrumar pra cover content*/
     display: flex;
     background-color: #023b75;
     padding: 20px;
