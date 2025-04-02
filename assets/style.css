@@ -144,8 +144,6 @@ video {
     width: 50px;
     height: 50px;
     display: inline;
-    
-
 }
 
 .container {
@@ -170,7 +168,8 @@ video {
 
 
 
-footer { /*ta bonito*/
+footer {
+    /*ta bonito*/
     color: white;
     background-color: #001f3f;
     padding: 10px;
