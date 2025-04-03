@@ -11,4 +11,3 @@
 /* var idade = 31 */
 /* string, numbers, booleanos*/
 /*CPF é string*/
-
