@@ -11,7 +11,7 @@ Dentro do mesmo espaço(scopo), não podemos ter 2 ou mais variaveis do mesmo no
  var idade = 31 
  string, numbers, booleanos
 CPF é string
-%modulo = resto da divisão
+% módulo = resto da divisão (numeros inteiros)
 
 
 
