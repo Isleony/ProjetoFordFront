@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "domina": "^0.4.6",
+    "doom": "^0.4.6"
+  }
+}
