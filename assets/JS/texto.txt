@@ -1,4 +1,4 @@
-/*começou dia 2
+começou dia 2
 scripts contidos nas paginas do próprio navegador
  Linguagem de programação 
  Manipulação no navegador 
@@ -15,8 +15,15 @@ CPF é string
 
 
 
+por tag:  getElementsByTagName()
+por Id:    getElementsById()
+por nome: getElementsByName()
+por classe: getElementsByClassName()
+por seletor: querySelector()
 
-*/
+
+
+
 
 
 
